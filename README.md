@@ -34,7 +34,7 @@ sudo docker build -t wireguard-builder .
 ```
 3. Get a shared folder ready. For example, /volume1/home/admin/wgmodule
 ```bash
-mkdir /volume/home/admin/wgmodule
+mkdir /volume1/home/admin/wgmodule
 ```
 4. Run the docker-compose.yaml stack. It will run then immediately stop. If you made a different shared folder than the one above, you need to edit that part in the docker-compose under 'volumes'.
 ```bash
