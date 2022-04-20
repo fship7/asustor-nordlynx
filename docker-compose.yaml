@@ -5,5 +5,5 @@ services:
     container_name: wireguard-builder
     volumes:
       - "/volume1/home/admin/wgmodule:/root/temp" # bind home directory to the container
-    restart: no
+    restart: 'no'
     command: /bin/cp /root/wireguard.ko /root/temp
