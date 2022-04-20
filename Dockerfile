@@ -14,3 +14,5 @@ RUN wget -O linux-5.4.x-x86_64.config https://sourceforge.net/projects/asgpl/fil
   sed -i -e 's/COMPAT_VERSION/5/' -e 's/COMPAT_PATCHLEVEL/4/' -e 's/COMPAT_SUBLEVEL/50/' wireguard-linux-compat/src/compat/version/linux/version.h &&\
   make -C wireguard-linux-compat/src -j$(nproc) &&\
   cp /tmp/wireguard-linux-compat/src/wireguard.ko /root
+  
+CMD ["/bin/sh", "-c", "echo 'It works!'"]
