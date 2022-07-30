@@ -1,3 +1,5 @@
+OBSOLETE. Asustor transitioned to kernel 5.13.x, making this repository obsolete. Unfortunately, they still didnt include wireguard in the kernel...
+
 # asustor-nordlynx
 Getting Nordlynx up and running on Asustor ADM 4.0 kernel 5.4.x
 
